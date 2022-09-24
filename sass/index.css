@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,100;1,9..144,200;1,9..144,400&family=Kumbh+Sans:wght@400;700&family=Space+Grotesk:wght@500&display=swap");
+:root {
+  --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --Soft-red: hsl(14, 88%, 65%);
+  --Soft-violet: hsl(273, 75%, 66%);
+  --Soft-blue: hsl(240, 73%, 65%);
+  --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --Dark-grayish-blue: hsl(240, 6%, 50%);
+  --Light-grayish-blue: hsl(240, 5%, 91%);
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  background: linear-gradient(180deg, var(--Soft-violet), var(--Soft-blue));
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.main-container {
+  margin: 160px auto 30px;
+  background-color: var(--white);
+  width: 330px;
+  height: 540px;
+  border-radius: 25px;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0 10px 40px var(--Very-dark-desaturated-blue);
+}
+.main-container__s1__image {
+  position: absolute;
+  width: 240px;
+  top: -109px;
+  left: 38px;
+}
+.main-container__s1__image--shadow {
+  position: absolute;
+  width: 240px;
+  left: 38px;
+  top: 0px;
+  content: url("../images/bg-pattern-mobile.svg");
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=index.css.map */
